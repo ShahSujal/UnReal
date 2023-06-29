@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.nav{
+    width: 100%;
+    height: 100px;
+    background:rgba(16, 15, 15, 0.151);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* position: fixed; */
+}
+.logo{
+    width: calc(100% - 350px );
+    height: 100%;
+    /* background: rgb(0, 0, 0);   */
+    font-family: 'Satisfy', cursive;  
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo h2{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+}
+.logo .image{
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+.wallet{
+    width: 280px;
+    height: 100%;
+    /* background: rgb(221, 206, 206); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wallet h2{
+    color: #ccc;
+    font-size: 14px;
+}
+.walletButton{
+    width: 350px;
+    height: 50px;
+    border-radius: 22px;
+    background: transparent;
+    border: 5px solid rgba(14, 14, 14, 0.392);
+    cursor: pointer;
+    color: #ccc;
+    font-weight: 700;
+}
+.iconio{
+   color: #ccc;
+   transition: 0.5s;
+}
+.iconio:hover{
+    color: #f30a73;
+}
+
+.WalletImage{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    filter: grayscale(10%) brightness(50%);
+    margin-bottom: 22px;
+}
+@media screen and (max-width: 770px) {
+.logo{
+    width: 100%;
+    height: 50%;
+}
+.wallet{
+    height: 50%;
+}
+.nav{
+    flex-direction: column;
+}
+.links{
+    width: 100%;
+}
+.logo h2{
+    margin-left: 20px;
+}
+}
