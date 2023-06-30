@@ -24,7 +24,7 @@ Key Functions:
 
 **FrontEnd:** NextJs, 
 
-**Backend:** HardHat, Solidity, SubGraph, ApolloGraphql...
+**Backend:** HardHat, Solidity, Ether.js
 
 
 
